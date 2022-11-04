@@ -4,7 +4,7 @@ const os = require('os');
 const { response, randomTwoChar, svgImg, firstCharOfFirstTwoWord } = require("./src/utils/utils");
 const path = require("path");
 const app = express();
-const port = 3000;
+const port = 3001;
 app.get("", (req, res) => {
   let name = req.query.name || req.query.n
   let rounded = (req.query.rounded || req.query.r) != undefined
