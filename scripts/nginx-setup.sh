@@ -1,0 +1,2 @@
+sudo cp .nginx/dev-img.ragasave.com.conf /etc/nginx/sites-available/dev-img.ragasave.com.conf
+sudo ln -s /etc/nginx/sites-available/dev-img.ragasave.com.conf /etc/nginx/sites-enabled/dev-img.ragasave.com.conf
